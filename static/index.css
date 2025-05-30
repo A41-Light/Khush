@@ -8,7 +8,6 @@ body {
   align-items: center;
   text-align: center;
   padding-top: 40px; /* space for the title */
-  font-size: 3vh;
 }
 
 .center-wrapper {
@@ -129,19 +128,21 @@ form button:hover {
 #description {
   color: white;
   margin-top: 100px;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
   text-align: center;
   justify-self: unset;
+  font-size: large;
 }
 
 #description2 {
   color: white;
   margin-top: 20px;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
   text-align: center;
   justify-self: unset;
+  font-size: large;
 }
 
 #img {
