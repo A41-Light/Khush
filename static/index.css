@@ -7,7 +7,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 40px; /* space for the title */font-size:20px;
+  padding-top: 40px; /* space for the title */
+  font-size: 3vh;
 }
 
 .center-wrapper {
@@ -132,7 +133,6 @@ form button:hover {
   margin-right: 20vw;
   text-align: center;
   justify-self: unset;
-  font-size: large;
 }
 
 #description2 {
@@ -142,7 +142,6 @@ form button:hover {
   margin-right: 20vw;
   text-align: center;
   justify-self: unset;
-  font-size: large;
 }
 
 #img {
