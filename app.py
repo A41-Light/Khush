@@ -19,7 +19,7 @@ def submit():
         email = data.get("email", "")
         message = data.get("message", "")
 
-        if not name or not email or not message:
+        if not name or not email:
             return jsonify({"success": False, "message": "All fields are required."}), 400
 
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
