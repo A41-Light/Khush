@@ -28,7 +28,7 @@ def submit():
         with open("messages.txt", "a", encoding="utf-8") as file:
             file.write(entry)
 
-        return jsonify({"success": True, "message": "Message saved!"})
+        return jsonify({"success": True, "message": "Submitted. Thank You for your response!"})
     
     except Exception as e:
         print("Error:", e)
