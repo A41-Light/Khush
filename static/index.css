@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 40px; /* space for the title */
+  padding-top: 40px; /* space for the title */font-size:20px;
 }
 
 .center-wrapper {
@@ -128,8 +128,8 @@ form button:hover {
 #description {
   color: white;
   margin-top: 100px;
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
   text-align: center;
   justify-self: unset;
   font-size: large;
@@ -138,8 +138,8 @@ form button:hover {
 #description2 {
   color: white;
   margin-top: 20px;
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
   text-align: center;
   justify-self: unset;
   font-size: large;
@@ -165,9 +165,8 @@ form button:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  width : 95%;
-  margin-left: 3vw;
-  margin-top: 10px;
+  width : 100%;
+  margin-top: 0.8vh;
 }
 
 #title2{
