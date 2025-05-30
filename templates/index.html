@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/static/index.css">
 </head>
 <body>
-  <div><h1 id="title"><img src="/icon.png" id="img">Khush Agarwal Productions</h1></div>
+  <div><h1 id="title"><img src="{{ url_for('static', filename='images/icon.png') }}" alt="Banner" id="image">Khush Agarwal Productions</h1></div>
   <p id="description"> Khush Agarwal Productions, we believe that every brand has a story—and our mission is to tell it with impact. Founded with a passion for creativity and a deep understanding of the ever-evolving digital world, we are a full-service social media management company committed to transforming your online presence.
     <br><br>
     From eye-catching visuals and engaging captions to strategic planning and community building, we handle every aspect of your social media with precision and flair. Our team works closely with clients to understand their unique voice, goals, and audience, crafting content that resonates and drives real growth.
@@ -39,10 +39,10 @@
   </div>
   </div>
 
-  <div ><img src="/Screenshot 2025-05-23 190028.png" class="images">
-        <img src="/Screenshot 2025-05-23 190036.png" class="images">
-      <img src="/Screenshot 2025-05-23 190044.png" class="images">
-      <img src="/Screenshot 2025-05-23 190055.png" class="images">
+  <div ><img src="{{ url_for('static', filename='images/Image1.png') }}" alt="Banner"class="images">
+        <img src="{{ url_for('static', filename='images/Image2.png') }}" alt="Banner" class="images">
+        <img src="{{ url_for('static', filename='images/Image3.png') }}" alt="Banner" class="images">
+        <img src="{{ url_for('static', filename='images/Image4.png') }}" alt="Banner" class="images">
     </div>
 
 
